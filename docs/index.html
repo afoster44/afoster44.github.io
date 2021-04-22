@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Alex Foster - Landing Page</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -19,11 +19,14 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
+<!-- This edits the actual afoster44.github.io the pug file is where we can see local changes -->
+<!-- if you want to be able to bcw-serve the non-pug make sure to cd docs then bcw-serve -->
+
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,7 +34,7 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav d-flex ml-auto mr-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
@@ -44,8 +47,7 @@
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0 text-uppercase">Alex Foster</h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
-                    Start Bootstrap.</h2>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Full Stack Software Developer</h2>
                 <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
             </div>
         </div>
@@ -55,16 +57,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+                    <h2 class="text-white mb-4">About Alex...</h2>
                     <p class="text-white-50">
-                        Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now,
-                        simply download the template on
-                        <a href="https://startbootstrap.com/theme/grayscale/">the preview page</a>
-                        . The theme is open source, and you can use it for any purpose, personal or commercial.
+                        Alex is a dedicated Full Stack Developer and has dedicated his time to building applications
+                        Javascript with
+                        Vue 3 Front End and NodeJS/MongoDB Back End. Alex also enjoys programming with C# and the .NET
+                        library with mySQL databases. You can find some more applications here
+                        <a href="https://startbootstrap.com/theme/grayscale/">| Github Link |</a>
+
                     </p>
                 </div>
             </div>
-            <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+            <div class="row">
+                <div class="col-lg-4">
+
+                    <img class="img-fluid" style="height: 150px;"
+                        src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c878ef7-7d73-4bdc-bd2b-0bbd50de3dac/vue-js.png"
+                        alt="..." />
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid" style="height: 150px;" src="./assets/img/csharp.png" alt="..." />
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="./assets/img/mySQL.jpeg.png" alt="..." />
+                </div>
+            </div>
         </div>
     </section>
     <!-- Projects-->
@@ -76,10 +93,14 @@
                         alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4>Shoreline</h4>
-                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use
-                            it for any project - even commercial projects! Download it, customize it, and publish your
-                            website!</p>
+                        <h2><a href="https://github.com/afoster44/Final">Keepr</a>
+                        </h2>
+                        <p class="text-black-50 mb-0">Keepr was the final application Alex built while attending
+                            BoiseCodeWorks, a 13 week full stack software developer course. Keepr is a Pinterest replica
+                            and proved to be very challenging. When you first log in you are presented with a nice clean
+                            Bootstrap 4 Masonry style layout. From there you can proceed to log in and create your own
+                            vaults where you can then store any keep you want. A keep can be created by any user and be
+                            about anything you want!</p>
                     </div>
                 </div>
             </div>
@@ -90,10 +111,12 @@
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Misty</h4>
-                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or
-                                    anything else, along with a description.</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                                <h4 class="text-white"><a href="https://github.com/chrisjcurry/propr">Propr</a></h4>
+                                <p class="mb-0 text-white-50">Full stack application built with a team of 5 developers.
+                                    Built to manage a property manager's day to day
+                                    operations. Built with all Javascript including a NodeJS & MongoDB back end
+                                    and a Vue 3 front end.</p>
+                                <!-- <hr class="d-none d-lg-block mb-0 ml-0" /> -->
                             </div>
                         </div>
                     </div>
@@ -106,11 +129,12 @@
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Mountains</h4>
-                                <p class="mb-0 text-white-50">Another example of a project with its respective
-                                    description. These sections work well responsively as well, try this theme on a
-                                    small screen!</p>
-                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                                <h4 class="text-white"><a
+                                        href="https://github.com/afoster44/Bugz-Vue3-MongoDb-Node.JS">Bugz</a></h4>
+                                <p class="mb-0 text-white-50">Last but not least is Bugz. A lightweight app
+                                    built to work with any other application that may need a place to report bugs. Solo
+                                    build built with Vue 3 front end and MongoDB/NodeJS back end.</p>
+                                <!-- <hr class="d-none d-lg-block mb-0 mr-0" /> -->
                             </div>
                         </div>
                     </div>
@@ -144,7 +168,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            <div class="small text-black-50">6771 West Douglas Street, Boise ID</div>
                         </div>
                     </div>
                 </div>
@@ -154,7 +178,7 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            <div class="small text-black-50"><a href="#!">alexfost94@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
@@ -164,21 +188,23 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                            <div class="small text-black-50">+1 (406) 589-7360</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <!-- <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                <a class="mx-2" href="https://www.github.com/afoster44/"><i class="fab fa-github"></i></a>
+                <a class="mx-2" href="https://www.linkedin.com/in/afoster44"><i class="fab fa-linkedin"></i></a>
+
             </div>
         </div>
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">Copyright &copy; Your Website 2021</div>
+        <div class="container">Copyright &copy; Foster&CO 2021</div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
